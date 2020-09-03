@@ -1,0 +1,58 @@
+@import "partials/header";
+@import "partials/banner";
+@import "partials/footer";
+@import "partials/content";
+@import "partials/variables";
+
+.container {
+    max-width: 1212px;
+}
+
+// fonts //
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-LightItalic.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-Light.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-Medium.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-BoldExtObl.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-BoldExtObl.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Times-Roman';
+    src: url('../fonts/Times-Roman.woff2') format('woff2'),
+        url('../fonts/Times-Roman.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@media(max-width:$xlargedevices){
+    header{
+        .logo-wrapper{
+            .logo
+        }
+    }
+}

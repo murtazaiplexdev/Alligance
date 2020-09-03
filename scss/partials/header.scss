@@ -1,0 +1,14 @@
+@import "partials/variables";
+
+header {
+    .header-strip {
+        background: $headerstripcolor;
+        padding: 22px 0;
+    }
+
+    .logo-wrapper {
+        padding: 16px 0 18px;
+
+        .logo {}
+    }
+}

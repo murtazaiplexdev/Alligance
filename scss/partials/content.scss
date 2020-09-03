@@ -1,0 +1,191 @@
+@import"partials/variables";
+
+.content {
+    .content-wrapper {
+        padding: 68px 100px 57px 0px;
+
+        .ceo-image {
+            img {}
+        }
+
+        .about-ceo {
+            position: relative;
+
+            p {
+                font-size: 25px;
+                line-height: 31px;
+                font-family: $fontfamilyHelvetica;
+                font-weight: 300;
+
+                &:before {
+                    content: '';
+                    background: url(../images/before.png)center center no-repeat/cover;
+                    width: 69px;
+                    height: 69px;
+                    display: inline-block;
+                    position: absolute;
+                    left: -80px;
+                    top: -40px;
+                }
+            }
+
+            h6 {
+                font-size: 20px;
+                line-height: 26px;
+                font-family: $fontfamilyHelvetica;
+                font-weight: bold;
+                margin: 0;
+            }
+
+            span {
+                display: inline-block;
+                font-size: 17px;
+                line-height: 23px;
+                font-family: $fontfamilyHelvetica;
+                font-weight: 300;
+                font-style: italic;
+            }
+        }
+    }
+
+    .missions-visions {
+        background: $lightgrey;
+        padding-top: 35px;
+        padding-bottom: 33px;
+
+        .row {
+            border-bottom: 3px solid $bordercolor;
+
+            .missions {
+                text-align: center;
+                border-right: 2px solid $bordercolor;
+                height: 100%;
+                padding-left: 54px;
+                padding-right: 104px;
+                padding-top: 45px;
+
+                h4 {
+                    font-family: $fontfamilyHelvetica;
+                    font-weight: 300;
+                    font-size: 34px;
+                    line-height: 40px;
+                    padding-bottom: 44px;
+                    padding-top: 27px;
+                }
+
+                p {
+                    font-family: $fontfamilyHelvetica;
+                    font-weight: 300;
+                    font-size: 23px;
+                    line-height: 29px;
+                }
+            }
+
+            .visions {
+                border-right: none;
+
+                p {
+                    padding-bottom: 67px;
+                    margin: 0;
+                }
+            }
+        }
+
+    }
+
+    .values-wrapper {
+        background: $lightgrey;
+        padding-bottom: 35px;
+
+        .value {
+            text-align: center;
+
+            h5 {
+                font-family: $fontfamilyHelvetica;
+                font-weight: 300;
+                font-size: 34px;
+                line-height: 40px;
+                color: $headerstripcolor;
+                padding-top: 27px;
+            }
+        }
+
+        .value-grow-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .value-grow {
+                width: 145px;
+                text-align: center;
+
+                h4 {
+                    font-family: $fontfamilyHelvetica;
+                    font-weight: 500;
+                    font-size: 23px;
+                    line-height: 29px;
+                }
+
+                p {
+                    font-family: $fontfamilyHelvetica;
+                    font-weight: 300;
+                    font-style: italic;
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .gi-alligance-partner {
+        padding-top: 85px;
+        padding-bottom: 115px;
+
+        h2 {
+            text-align: center;
+            position: relative;
+            padding-bottom: 85px;
+
+            &:before {
+                content: '';
+                background: url(../images/line.png)center center no-repeat/cover;
+                width: 425px;
+                height: 2px;
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                top: 20px;
+            }
+
+            &:after {
+                content: '';
+                background: url(../images/line.png)center center no-repeat/cover;
+                width: 425px;
+                height: 2px;
+                display: inline-block;
+                position: absolute;
+                right: 0;
+                top: 20px;
+            }
+        }
+
+
+        ul.partner-outer {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            justify-content: center;
+
+            li {
+                width: 33.3%;
+                padding: 0px 15px;
+                text-align: center;
+                margin-bottom: 15px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

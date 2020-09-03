@@ -1,0 +1,21 @@
+@import"partials/variables";
+
+.banner-wrapper {
+    background: url(../images/banner-background.png)center center no-repeat/cover;
+    padding-top: 170px;
+    padding-bottom: 196px;
+
+    .banner-content {
+        text-align: center;
+
+        h1 {
+            max-width: 900px;
+            margin: 0 auto;
+            font-family: $fontfamilyHelvetica;
+            font-weight: 300;
+            font-size: 62px;
+            line-height: 68px;
+            color: $headerstripcolor;
+        }
+    }
+}

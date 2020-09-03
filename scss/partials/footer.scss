@@ -1,0 +1,78 @@
+@import"partials/variables";
+
+footer {
+    padding-bottom: 100px;
+
+    .footer-wrapper {
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background: $footerstrip;
+
+        h3 {
+            font-family: $fontfamilyHelvetica;
+            font-weight: 300;
+            font-size: 38px;
+            line-height: 44px;
+            color: $footerstripcolor;
+        }
+    }
+
+    .footer-content-outer {
+        margin-top: 13px;
+
+        background: $footercontent;
+
+        .about-partner {
+            padding: 35px 32px 32px 62px;
+
+            p {
+                font-family: $fontfamilyHelvetica;
+                font-weight: 300;
+                font-size: 25px;
+                line-height: 31px;
+            }
+        }
+    }
+
+    form {
+        margin-top: 13px;
+
+        .form-group {
+            margin-bottom: 30px;
+
+
+            .form-control {
+                border-radius: 0;
+                padding: 14px 16px 14px;
+                display: inline-block;
+
+                &::placeholder {
+                    font-family: $fontfamilyHelvetica;
+                    font-weight: 300;
+                    font-style: italic;
+                    font-size: 25px;
+                    line-height: 31px;
+                }
+            }
+        }
+
+        button {
+            background: $buttoncolor;
+            display: inline-block;
+            color: $footerstripcolor;
+            font-family: $fontfamilyHelvetica;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 31px;
+            padding: 15px 14px;
+            cursor: pointer;
+            border: none;
+            transition: 0.2s all ease;
+
+            &:hover {
+                background: $headerstripcolor;
+            }
+        }
+    }
+}
